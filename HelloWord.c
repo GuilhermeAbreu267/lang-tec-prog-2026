@@ -1,7 +1,7 @@
 #include <studio.h>
 
 int main()  {
-  printf("Hello word!\n");
+  printf("Hello Word!\n");
 
   return 0;
 }
