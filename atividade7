@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+    int mult (int digto, int valor ){
+    digto * valor;
+ }  
+   
+     int main(int argc, char *argv[]) {
+   
+     int dg1, dg2, dg3, dg4, dg5, dg6,dg7, dg8, dg9, dv, dv2, soma, resto;
+
+    scanf("%d %d %d . %d %d %d . %d %d %d - %d %d", ]
+       &dg1, &dg2, &dg3, &dg4, &dg5, &dg6, &dg7, &dg8, &dg9, &dv, &dv2);
+ 
+    printf(" confirme o cpf: %d%d%d.%d%d%d.%d%d%d-%d%d",
+      dg1, dg2, dg3, dg4, dg5, dg6, dg7, dg8, dg9, dv, dv2);
+
+soma
+
+   dg1 *= 10;
+    dg2 *= 9;
+    dg3 *= 8;
+	
+	//PRIMEIRA VERIFICAÇÃO DO CPF
+	C1=C1*10;
+	C2=C1*9;
+	C3=C1*8;
+	C4=C1*7;
+	C5=C1*6;
+	C6=C1*5;
+	C7=C1*4;
+	C8=C1*3;
+	C9=C1*2;
+   
+   CPF = (((C1+C2+C3+C4+C5+C6+C7+C8+C9)*10)%11);
+	
+	C1=C1*11;	
+	C1=C1*10;
+	C2=C1*9;
+	C3=C1*8;
+	C4=C1*7;
+	C5=C1*6;
+	C6=C1*5;
+	C7=C1*4;
+	C8=C1*3;
+	C9=C1*2;
+   
+	return 0;
+}
